@@ -1,10 +1,14 @@
 import os
+import dotenv # Необходима для использования переменных среды  из .env файла
 
 from telebot.types import InlineKeyboardButton
 
+dotenv.load_dotenv()
 
 class Config:
-    BOT_TOKEN = os.environ['BOT_TOKEN']
+    MODE = os.getenv('MODE')
+    BOT_TOKEN = os.getenv('BOT_TOKEN')
+    URL = os.getenv('HEROKU_URL')
 
 
 def autosending_text(bot, message):
