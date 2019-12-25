@@ -35,7 +35,7 @@ cd pyfirstbotbot
 pip install -r requirements.txt
 ```
 
-В папке с исходниками необходимо создать текстовый файл `.env` со следующим содержанием:
+В папке с исходниками необходимо создать текстовый файл `.env` (пример в .env.default) со следующим содержанием:
 ```
 BOT_TOKEN=YOUR_BOT_TOKEN
 MODE=debug
