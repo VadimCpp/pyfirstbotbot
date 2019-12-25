@@ -4,9 +4,9 @@
 
 This is the starter template for other bots built with python
 
-## Инструкция
+## Инструкция публикации на Heroku
 
-Пошаговая инструкция находится:
+Пошаговая инструкция находится тут:
 [frontend-basics.blogspot.com/2019/09/py-first-bot.html](https://frontend-basics.blogspot.com/2019/09/py-first-bot.html)
 
 ## Настройка IDE
@@ -43,6 +43,7 @@ MODE=debug
 Вместо `YOUR_BOT_TOKEN` вставьте токен для бота.
 
 И, наконец, можно запустить бота.
+Использовать python версии 3
 ```
 python bot.py
 ```
